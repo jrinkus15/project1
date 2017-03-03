@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+	  <link rel="stylesheet" type="text/css" href="CSS/project.css">
+  </head>
+  <body id="checkout">
+		<!-- This form is what the customer will use to fill out their order -->
+    <form>
+	   <h1> Fill this out to buy shoes </h1>
+	     <p> Name <input type="text" name="email"> </p>
+	     <p> Address <input type="text" name="email"> </p>
+	     <p> What size shoe are you?
+		      <select name="size">
+		      <option> 6 </option>
+		      <option> 6.5  </option>
+		      <option> 7 </option>
+		      <option> 7.5 </option>
+		      <option> 8 </option>
+		      <option> 8.5 </option>
+		      <option> 9 </option>
+		      <option> 9.5 </option>
+	      	<option> 10 </option>
+	      	<option> Other </option>
+	      	</select>
+	   	</p>
+       <p> What type of shoe(s) do you want to buy? <br />
+				 <input type="checkbox" name="Shoe" value="Type" /> Sneakers
+				 <input type="checkbox" name="Shoe" value="Type" /> Sandals
+				 <input type="checkbox" name="Shoe" value="Type" /> Boots
+				 <input type="checkbox" name="Shoe" value="Type"  /> Heels
+				 <input type="checkbox" name="Shoe" value="Type"  /> Other
+				 <br />
+				 <br />
+			 </p>
+      <label> Specifications: </label>
+	    </br>
+		    <textarea id="specifications"> What do you want your shoes to look like? </textarea>
+	    </br>
+			<p>
+			 Do you want to be on our email list for further updates on deals?
+		 </p>
+		 <input type="radio" name="deals" value="1" /> Yes
+		 <input type="radio" name="deals" value="2" /> No
+		 <br />
+		 <br />
+	  <input type="submit" value="Submit order" /> &nbsp;
+    <input type="reset" value="Reset order" />
+    <div>
+      <img src="Images/thankyou.gif">
+    </div>
+    </form>
+  </body>
+</html>
